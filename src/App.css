@@ -1,0 +1,283 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 100px;
+  font-family: "Clicker Script";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+/* 
+.logo {
+  width: 200px;
+  height: 200px;
+  float: left;
+  transition: transform 0.5s;
+}
+
+.logo:hover {
+  transform: rotate(360deg); */
+
+
+.container {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 20px;
+}
+
+
+
+.home-page-overview {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  padding-top: 90px;
+  font-weight: 200;
+  font-family: "italic";
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  
+}
+
+
+.movie-item img{
+  width: 250px;
+  height: 400px; 
+
+}
+.movie-item {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px solid rgb(0, 221, 255) ;
+  border-top: 1px solid white ;  
+  border-radius: 17px;
+
+  margin: 20px;
+}
+
+.movie-info {
+  margin-top: 10px;
+}
+
+.movie-info h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.information-p {
+  margin-bottom: 5px;
+}
+
+.add-movie-form {
+  margin-top: 20px;
+
+}
+
+.add-movie-form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.add-movie-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-movie-form label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.add-movie-form input,
+.add-movie-form textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.add-movie-button {
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.add-movie-button:hover {
+  background-color: #ddd;
+}
+
+.explore-blog-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.information-p
+colour
+/*=========== Navbar=========== */
+.nav-link-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 40%;
+  font-size: 24px;
+  padding-top: 20px;
+  margin-right: 300px;
+  background-color: red !important;
+}
+
+.nav-links-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: lightblue;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 25px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: rgb(0, 221, 177);
+  font-weight: bold;
+  padding: 10px;
+  font-size: 29px;
+  letter-spacing: 3px;
+}
+
+.nav-link a:hover {
+  color: rgb(0, 221, 255);
+  border-bottom: 2px solid rgb(95, 114, 117);
+  border-radius: 7px;
+}
+
+.nav-link a.active {
+  border-radius: 7px 7px 0 0;
+}
+
+
+body {
+  background-color: #333;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.logo {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+/* Review stylings */
+.Reviews-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.review-h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.paragraph-p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 300px
+ 
+}
+
+.review-item {
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid green;
+  width: 70%;
+  /* flex-basis: 33.33%; */
+}
+
+.reviewer {
+  font-weight: bold;
+}
+
+.review {
+  font-style: italic;
+}
+
+.number_of_reviews {
+  margin-top: 10px;
+}
+
+.review-likes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.like-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
